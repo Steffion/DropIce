@@ -1,0 +1,30 @@
+name: DropIce
+main: nl.Steffion.DropIce.DropIce
+version: 1.13
+authors:
+  - Steffion
+description: >
+             Gives you Ice if you break ice with a pick.
+permissions:
+  dropice.*:
+    description: Can do every DropIce command.
+    default: op
+    children:
+        dropice.info: true
+        dropice.reload: true
+        dropice.use: true
+  dropice.info:
+    description: Displays Dropice info.
+    default: op
+  dropice.reload:
+    description: Reloads DropIce config.
+    default: op
+  dropice.use:
+    description: Allowed to use DropIce
+    default: op
+commands:
+  dropice:
+    description: Displays Dropice info.
+    usage: /<command>
+    aliases:
+      - di

@@ -1,0 +1,9 @@
+#   DropIce by Steffion.
+# You can use color in the message.
+dropice:
+  message:
+    enabled: true
+    message: '&bThe ice broke and dropped a block!'
+  dropblock:
+    blockid: 79
+    amount: 1
